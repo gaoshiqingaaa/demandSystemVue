@@ -1,0 +1,20 @@
+# ----------------------------------------
+# kplayer 基础配置文件.
+#
+# 详细说明请参见：https://kplayer.bytelang.cn
+#
+# ----------------------------------------
+version: "1.0"
+player:
+  encode: 
+    video_width: 480
+    video_height: 720
+  media:
+    auto_reconnect: true
+    list:
+      - "/mp4/秀高科技/一号位殷敏.mp4"
+
+  output:
+    auto_reconnect: true
+    type: rtmp
+    path: "rtmp://zzpush.nut5g.com/xgkj/11923?auth_key=1591510985-0-0-eca4e25da44babaeeef20b73c5ff4d70"

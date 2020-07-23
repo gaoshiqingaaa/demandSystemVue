@@ -1,0 +1,127 @@
+// @import "~element-ui/packages/theme-chalk/src/common/var";
+
+@import "./element-variables.scss";
+
+.bg-color-primary {
+  background: $--color-primary;
+}
+
+.bg-color-primary-light-1 {
+  background: $--color-primary-light-1;
+}
+
+.bg-color-primary-light-2 {
+  background: $--color-primary-light-2;
+}
+
+.bg-color-primary-light-3 {
+  background: $--color-primary-light-3;
+}
+
+.bg-color-primary-light-4 {
+  background: $--color-primary-light-4;
+}
+
+.bg-color-primary-light-5 {
+  background: $--color-primary-light-5;
+}
+
+.bg-color-primary-light-6 {
+  background: $--color-primary-light-6;
+}
+
+.bg-color-primary-light-7 {
+  background: $--color-primary-light-7;
+}
+
+.bg-color-primary-light-8 {
+  background: $--color-primary-light-8;
+}
+
+.bg-color-primary-light-9 {
+  background: $--color-primary-light-9;
+}
+
+.bg-color-success {
+  background: $--color-success;
+}
+
+.bg-color-success-light {
+  background: $--color-success-light;
+}
+
+.bg-color-success-lighter {
+  background: $--color-success-lighter;
+}
+
+.bg-color-warning {
+  background: $--color-warning;
+}
+
+.bg-color-warning-light {
+  background: $--color-warning-light;
+}
+
+.bg-color-warning-lighter {
+  background: $--color-warning-lighter;
+}
+
+.bg-color-danger {
+  background: $--color-danger;
+}
+
+.bg-color-danger-light {
+  background: $--color-danger-light;
+}
+
+.bg-color-danger-lighter {
+  background: $--color-danger-lighter;
+}
+
+.bg-color-info {
+  background: $--color-info;
+}
+
+.bg-color-info-light {
+  background: $--color-info-light;
+}
+
+.bg-color-info-lighter {
+  background: $--color-info-lighter;
+}
+
+.color-text-primary {
+  color: #fff;
+}
+
+.color-text-regular {
+  color: #fff;
+}
+
+.color-text-secondary {
+  color: #fff;
+}
+
+.color-text-placeholder {
+  color: #fff;
+}
+
+.border-color-base {
+  border: $--border-color-base solid 1px;
+}
+
+.border-color-light {
+  border: $--border-color-light solid 1px;
+}
+
+.border-color-lighter {
+  border: $--border-color-lighter solid 1px;
+}
+
+.bg-color-base {
+  background: $--background-color-base;
+}
+
+.cc-is-gray {
+  filter: grayscale(1);
+}

@@ -1,0 +1,48 @@
+// 右边
+<el-collapse-item title="意见3 智子 | 2020.01.18 20:20" name="2">
+  <div>
+    <el-row>
+      <el-col :span="10">
+        <img class="right-img" src="@/assets/images/test.png" alt="">
+      </el-col>
+      <el-col :span="14">
+        <el-input
+          type="textarea"
+          :rows="6"
+          placeholder="请输入内容"
+          v-model="input">
+        </el-input>
+      </el-col>
+    </el-row>
+    <div class="rig-control">
+      <div class="title">
+        <el-link :underline="false" class="c-btn" icon="el-icon-upload">重传</el-link>
+        <el-link :underline="false" class="c-btn" icon="el-icon-delete">删除</el-link>
+      </div>
+      <div><i class="el-icon-arrow-up c-icon"></i></div>
+    </div>
+    <div style="height: 10px"/>
+  </div>
+</el-collapse-item>
+
+<el-dropdown style="display: block;" trigger="click" @visible-change="handleDropdownEvent">
+  <div class="cc-panle">
+    <div class="title">
+      共 20h 30
+    </div>
+    <div>
+      <i class="c-icon" :class="[dropDownVisibleChange ? 'el-icon-arrow-up':'el-icon-arrow-down']"></i>
+    </div>
+  </div>
+  <el-dropdown-menu slot="dropdown">
+    <el-scrollbar
+      ref="scrollbar"
+      tag="div"
+      :view-style="{ height: '200px' }"
+      :noresize="false">
+      <el-dropdown-item style="width: 280px;" icon="el-icon-plus">黄金糕</el-dropdown-item>
+      <el-dropdown-item style="width: 280px;" icon="el-icon-circle-plus">狮子头</el-dropdown-item>
+      <el-dropdown-item style="width: 280px;" icon="el-icon-circle-plus">狮子头</el-dropdown-item>
+    </el-scrollbar>
+  </el-dropdown-menu>
+</el-dropdown>

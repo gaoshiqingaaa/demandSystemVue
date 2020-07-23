@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body {
+  background-color: #f2f2f2;
+  color: #333333;
+  font-size: 13px !important;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+  body,
+ div,  dl,  dt,  dd,  ul,  ol,  li,  h1,  h2,  h3,  h4,  h5,  h6,  pre,  code,  form,  fieldset,  legend,  input,  button,  textarea,  p,  blockquote,  table,  th,  td  {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.gray {
+  color: #ccc;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+.mu-color {
+  color: #00CBCA;
+}
+
+.btn {
+  width: 95px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  border-color: #ccc;
+  color: #000;
+}
+
+.cc-dl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cc-flex {
+  display: flex;
+}
+
+.cc-card {
+  .el-dropdown {
+    display: block;
+  }
+}
+
+.c-paste-input > .el-input__inner {
+  height: 138px;
+}
+
+.cc-main-image {
+  display: block;
+  overflow-y: scroll;
+  height: 100%;
+  text-align: center;
+}
+
+.cc-main-image img {
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.c-el-image-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #909399;
+  font-size: 14px;
+}
+.c-error-icon {
+  font-size: 86px;
+}
+
+.cc-left-th-image {
+  position: static;
+  display: block;
+  height: 134px;
+}
+
+.cc-strik-state .el-checkbox__label {
+  padding-left: 2px;
+}
+.el-message-box__wrapper .el-message-box .el-button {
+  width: auto;
+  border-radius: 3px;
+  padding: 9px 15px !important;
+}
+
+.cc-dropDown-time {
+  padding: 0;
+}
+
+.c-timeline {
+  padding: 10px; margin: 0
+}
+
+.c-timeline li {
+  margin: 6px 0;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.el-container {
+  padding-bottom: 0px;
+}
+
+.cc-vh-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.el-table .el-table__body-wrapper::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 7px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 7px;
+}
+.el-table .el-table__body-wrapper::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 8px;
+  background-color: rgba(144,147,153,.0);
+}
+
+.el-table:hover .el-table__body-wrapper::-webkit-scrollbar-thumb {/*滚动条整体样式*/
+  background-color: rgba(144,147,153,.3);
+}
+
+.el-table:hover .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {/*滚动条里面小方块*/
+  border-radius: 10px;
+  background-color: rgba(144,147,153,.5);
+}
+
+

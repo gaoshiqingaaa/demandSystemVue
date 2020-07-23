@@ -1,0 +1,263 @@
+.ant-select-selection--multiple .ant-select-search--inline .ant-select-search__field {
+    width: auto !important;
+}
+.ant-select ul {
+    width: 500px;
+}
+#demand .base-info .el-form-item>.el-form-item__label:before {
+    content: '';
+    margin-right: 9.3px;
+}
+#demand .base-info .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+    content: '*';
+    margin-right: 4px;
+}
+.demand-container .demand-table .el-table__column-filter-trigger {
+    display: inline-flex;
+}
+.ant-select-selection--multiple {
+    border-radius: unset;
+}
+#demand {
+    margin: 0px 0px 0px 10px;
+    overflow: hidden;
+  label {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .el-dialog__footer {
+      overflow: hidden;
+      padding: 0px 0 30px;
+      text-align: center;
+      .dialog-footer {
+          .el-button--small {
+              padding: 13px 65px;
+          }
+      }
+  }
+  .el-select,
+  .el-input {
+    width: 100%;
+  }
+  textarea.el-textarea__inner {
+    // height: 30px;
+    overflow: visible;
+  }
+
+  .el-row {
+    line-height: 30px;
+
+    .el-form-item {
+      label {
+        text-align: left;
+      }
+    }
+  }
+
+  .input-datepicker {
+    .el-input__prefix {
+      display: none;
+    }
+
+    .el-input--prefix {
+      .el-input__inner {
+        padding-left: 0px;
+      }
+    }
+  }
+
+  .base-info,
+  .require-info,
+  .material-info,
+  .qu-info,
+  .preview-info {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    padding-right: 35px;
+  }
+
+  .preview-info {
+    padding-bottom: 20px;
+
+    .btn-copy {
+      width: 95px;
+      height: 30px;
+    }
+  }
+
+  .require-control-line {
+    width: 1px;
+    height: 100%;
+    background-color: #999;
+  }
+
+  .base-info {
+    .el-radio-group {
+      label {
+        margin-right: 6px;
+
+        &.is-active {
+          border: unset;
+        }
+      }
+
+      .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+        background-color: $theme-color;
+      }
+
+      .el-radio-button__inner {
+        border-radius: 0.5em;
+        border: 1px solid #dcdfe6;
+        font-weight: 500;
+        -webkit-appearance: none;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: 0;
+        margin: 0;
+        position: relative;
+        cursor: pointer;
+        -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        padding: 0;
+        width: 45px;
+        box-shadow: unset !important;
+
+        &hover {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+
+  .material-info {
+    .attachment-upload {
+      .image-wrapper {
+        // height: 148px;
+      }
+
+      .el-upload-list {
+        li.is-ready {
+          // height: 200px;
+          border-radius: unset;
+        }
+      }
+    }
+  }
+
+  .btn-group {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .el-form-item {
+      .el-form-item__content {
+        margin: unset !important;
+        button {
+          width: 160px;
+          height: 40px;
+          border-radius: 0;
+          background-color: $theme-color;
+          border: 0px;
+        }
+      }
+    }
+  }
+}
+
+.el-input--prefix .el-input__inner {
+  padding-left: unset;
+  padding-left: 10px;
+}
+
+.el-upload-list--picture .el-upload-list__item-thumbnail {
+  vertical-align: middle;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin-left: -80px;
+  background-color: #fff;
+}
+
+
+
+.el-upload {
+  width: 100%;
+  display: unset;
+}
+.upload-demo {
+  .el-upload-dragger {
+    width: auto;
+    height: 202px;
+  }
+}
+
+.upload-container {
+  .cc-preview-title {
+    text-align: left;
+  }
+  .cc-preview-img {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+  }
+  ul {
+    padding-left: 0px !important;
+    .upload-item {
+      margin-bottom: 10px;
+      width: 100%;
+      border: 1px #DCDFE6 solid;
+      border-radius: 6px;
+      padding: 10px 10px;
+      position: relative;
+      // height: 210px;
+      .btn-upload {
+        height: 90px;
+        width: 100%;
+        background: #fff;
+        color: #999;
+        border: unset;
+      }
+
+      .romove-item {
+        position: absolute;
+        right: -12px;
+        top: -12px;
+        height: 24px;
+        width: 24px;
+        border: 0px;
+
+        &:focus,
+        &:hover {
+          color: #fff;
+          background-color: $theme-color;
+        }
+
+        .el-icon-error {
+          font-size: 24px !important;
+          &:hover {
+          }
+        }
+      }
+      .tip_note {
+        color: #ccc;
+        font-size: 10px;
+        display: block;
+        line-height: 18px;
+      }
+    }
+  }
+}
