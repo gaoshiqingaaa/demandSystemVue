@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://demand.w.eolinker.com/',  // 通过本地服务器将你的请求转发到这个地址
+        target: 'https://demand.w.eolinker.com/.',  // 通过本地服务器将你的请求转发到这个地址
         // target: 'http://118.24.81.143:8080',  // 通过本地服务器将你的请求转发到这个地址
         changeOrigin: false,  // 设置这个参数可以避免跨域
         ws: true,
