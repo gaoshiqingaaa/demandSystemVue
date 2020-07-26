@@ -49,7 +49,9 @@ export default {
                 this.progerss = ''
                 this.progerssNum = 0
                 this.progressSuccess = false
+                if(this.progerssNum===100){
                 this.$message({ message: '上传成功',  type: 'success' })
+                }
             }
         },1000)
         apiUpload(formData).then(res => {
